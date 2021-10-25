@@ -16,7 +16,7 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hola"
+            android:text="Hello"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_margin="10sp"/>
@@ -30,7 +30,7 @@
                 android:id="@+id/btn_list_sports_center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="LIST SPORTS CENTERS"
+                android:text="SPORTS CENTERS"
                 android:layout_margin="10sp" />
             <Button
                 android:id="@+id/btn_view_messages"
