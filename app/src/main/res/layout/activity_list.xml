@@ -36,7 +36,6 @@
                 android:id="@+id/btn_view_messages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity=""
                 android:text="MESSAGES"
                 android:layout_margin="10sp" />
         </LinearLayout>
