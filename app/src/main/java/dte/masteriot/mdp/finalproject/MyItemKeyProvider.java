@@ -27,7 +27,7 @@ public class MyItemKeyProvider extends ItemKeyProvider<Long> {
     @Override
     public Long getKey(int position) {
         Log.d(TAG, "getKey() called");
-        return (long) position;
+        return Long.valueOf((long)(position));
     }
 
     @SuppressLint("LongLogTag")
