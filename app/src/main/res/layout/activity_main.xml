@@ -59,15 +59,17 @@
             android:text="Clean"
 
         />
+
         <Button
+            android:id="@+id/bSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="220dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
             android:text="Submit"
-
-            />
+            android:onClick="clickList"
+            tools:ignore="OnClick" />
 
 
     </RelativeLayout>

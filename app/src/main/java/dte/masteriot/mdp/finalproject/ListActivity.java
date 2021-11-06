@@ -75,7 +75,7 @@ public class ListActivity extends AppCompatActivity {
         // Populate the list of items if not done before:
         final int ITEM_COUNT = 50;
         if (listofcenterssinitialized == false) {
-            for (int i = 0; i < ITEM_COUNT; ++i) {
+            for (int i = 0; i < ITEM_COUNT; i++) {
                 listOfCenters.add(new SportCenter("SportCenter " + i, "District " + i, i));
             }
             listofcenterssinitialized = true;
