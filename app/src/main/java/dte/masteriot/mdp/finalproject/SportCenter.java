@@ -3,9 +3,9 @@ package dte.masteriot.mdp.finalproject;
 public class SportCenter {
     private String name;
     private String district;
-    private String cp;
+    private int cp;
 
-    SportCenter(String name, String district, String cp) {
+    SportCenter(String name, String district, int cp) {
         this.name = name;
         this.district = district;
         this.cp = cp;
@@ -19,7 +19,7 @@ public class SportCenter {
         return district;
     }
 
-    public String getCp() {
+    public int getCp() {
         return cp;
     }
 }
