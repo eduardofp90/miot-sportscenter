@@ -23,11 +23,12 @@ public class MainActivity extends AppCompatActivity {
         }); */
 
     }
-    public void openListActivity(){
+    public void openListActivity() {
         Intent iList = new Intent(this, ListActivity.class);
         startActivity(iList);
     }
-    public void clickList(){
+
+    public void clickList(View view) {
         Intent iList = new Intent(this, ListActivity.class);
         startActivity(iList);
     }
