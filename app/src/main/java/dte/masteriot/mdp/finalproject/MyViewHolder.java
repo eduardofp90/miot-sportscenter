@@ -33,6 +33,7 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         // give values to the elements contained in the item view
         name.setText(center.getName());
         district.setText(center.getDistrict());
+        cp.setText(center.getCp());
         if(isSelected) {
             name.setTextColor(Color.BLUE);
         } else {
