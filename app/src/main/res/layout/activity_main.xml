@@ -31,18 +31,18 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
         <CheckBox
-            android:id="@+id/checkFootball"
+            android:id="@+id/checkBox_soccer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
-            android:text="Football"
+            android:text="@string/checkB_soccer"
             />
         <CheckBox
-            android:id="@+id/checkTennis"
+            android:id="@+id/checkBox_tennis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Tennis"
+            android:text="@string/checkB_tennis"
             />
     </LinearLayout>
 
@@ -51,6 +51,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/clean_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -58,7 +59,7 @@
             android:layout_marginRight="200dp"
             android:text="Clean"
 
-        />
+            />
 
         <Button
             android:id="@+id/bSubmit"
@@ -67,8 +68,8 @@
             android:layout_marginLeft="220dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
-            android:text="Submit"
-            android:onClick="clickList" />
+            android:onClick="activity_recycler"
+            android:text="Submit" />
 
 
     </RelativeLayout>
